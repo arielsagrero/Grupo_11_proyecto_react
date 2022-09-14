@@ -1,24 +1,39 @@
 import logo from './logo.svg';
 import './App.css';
+import Inicio from './components/Inicio';
+import Header from './components/Header';
+import Pelicula from './components/Pelicula';
+import peliculas from './json/peliculas.json';
+import Footer from './components/Footer';
 
 function App() {
+  console.log(window.location);
+  let component
+  switch(window.location.pathname){
+    case "/":
+         component = <Inicio/>
+         break
+    case "/peliculas": 
+         component = peliculas.map(peli =>
+          <Pelicula
+             img={peli.img}
+             titulo={peli.titulo}
+             sinopsis={peli.sinopsis}
+             reparto={peli.reparto}
+             clasificacion={peli.clasificacion}
+             duracion={peli.duracion}
+             ></Pelicula>)
+          break
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+       <Header/>
+       {component}
+       <Footer/>
+      
+    </>
+    
   );
 }
 

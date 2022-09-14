@@ -1,0 +1,199 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background-color: rgba(12, 10, 10, 0.925);
+}
+
+.inicio
+{
+    background-image: url('../img/cinealfa.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 670px;
+    padding-top: 100px;
+    
+}
+
+.inicio h1
+{
+    color: azure;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 60px;
+    text-align: center;
+
+}
+
+.botoninicio
+{
+    display: block;
+    width: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    background-color: aqua;
+    border-radius: 10px;
+    padding: 15px 25px;
+    margin: 350px 600px;
+    color: azure;
+    text-decoration: none;
+    text-align: center;
+}
+
+.botoninicio:hover{
+    background-color: transparent;
+    border: 2px solid aqua;
+    color: aqua;
+}
+
+header{
+    background: rgb(17, 17, 17);
+    width: 100%;
+    clear: both;
+    display: table;
+    position: fixed;
+}
+
+.menu{
+    width: 900px;
+    margin: 0 auto;
+}
+.cine{
+    float:left;
+    color: azure;
+    padding: 15px 0;
+    
+}
+
+nav{
+    float: right;
+    
+}
+nav ul li{
+    list-style: none;
+    margin-left: 65px;
+    padding: 15px 0;
+    float: left;
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(234, 243, 243);
+    font-weight: bold;
+}
+nav ul li a:hover{
+    color: aqua;
+}
+.contenedor{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pelicula{
+    width: 1100px;
+    height: 470px;
+    padding: 20px 20px;
+    font-size: 20px;
+    line-height: 1.5;
+    background: azure;
+    border-radius: 5px;
+    text-align: justify;
+    margin-top: 40px;
+   
+}
+
+.pelicula img{
+    width: 300px;
+    height: 380px;
+    border-radius: 5px;
+    float: left;
+    margin-right: 15px;
+    margin-top: 10px;
+}
+
+.boton{
+    width: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    background-color: aqua;
+    border-radius: 10px;
+    padding: 10px;
+    color: azure;
+    text-decoration: none;
+    float: right;
+    text-align: center;
+}
+.boton:hover{
+    background-color: transparent;
+    border: 2px solid aqua;
+    color: aqua;
+}
+i{
+    margin-right: 10px;
+}
+
+.pie_pagina{
+    width: 100%;
+    background-color: rgb(17, 17, 17);
+    margin-top: 20px;
+}
+
+.pie_pagina .grupo_1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 45px 0px;
+}
+
+.pie_pagina .grupo_1 .box h2{
+    margin-bottom: 20px;
+    margin-top: 10px;
+    font-size: 25px;
+    margin-left: 200px;
+}
+
+.pie_pagina .grupo_1 .box h2 a{
+    color: #efefef;
+    text-decoration: none;
+}
+
+.pie_pagina .grupo_1 .box .red_social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    color: white;
+    margin-right: 8px;
+    background-color: black;
+    text-align: center;
+}
+
+.pie_pagina .grupo_1 .box .red_social a:hover{
+    color: aqua;
+}
+
+.pie_pagina .grupo_1 .box h1{
+    color: #efefef;
+    margin-bottom: 10px;
+}
+
+.pie_pagina .grupo_2{
+    background-color: rgba(12, 10, 10, 0.925);
+    padding: 15px 10px;
+    color: white;
+    text-align: center;
+}
+
+.pie_pagina .grupo_2 small{
+    font-size: 15px;
+}
+
+.pie_pagina .grupo_1 .box{
+    margin-left: 120px;
+}

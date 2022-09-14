@@ -1,0 +1,42 @@
+[
+    {
+      "img": "./img/pelicula1.png",
+      "titulo": "TELEFONO NEGRO",
+      "sinopsis": "En una ciudad de Colorado, en los años 70, un enmascarado secuestra a Finney Shaw, un chico tímido e inteligente de 13 años, y le encierra en un sótano insonorizado donde de nada sirven sus gritos. Cuando un teléfono roto y sin conexión empieza a sonar, Finney descubre que a través de él puede oír las voces de las anteriores víctimas, las cuales están decididas a impedir que Finney acabe igual que ellas.",
+      "reparto": "Ethan Hawke, Mason Thames, Jeremy Davies, James Ransone, Madeleine McGraw, E. Roger Mitchell, Andrew Farmer, Kellan Rhude.",
+      "clasificacion": "Edad 18+",
+      "duracion": "1 hora 42 minutos"
+    },
+    {
+        "img": "./img/pelicula2.jpeg",
+        "titulo": "¡NOP!",
+        "sinopsis": "OJ y Jill son hermanos y juntos dirigen el primer rancho de caballos de Hollywood que es de afroamericanos. Su tatarabuelo fue el hombre de aquella imagen icónica de Eadward Muybridge en la que un jinete a caballo hizo historia en un estudio del siglo XIX sobre cómo hacer que las imágenes se movieran. Ese acontecimiento marcó el inicio de las películas. Tras haber visto algo en las nubes, los hermanos buscan adentrarse en la realización de películas, así que se disponen a vender imágenes y material de video acerca del supuesto OVNI.",
+        "reparto": "Daniel Kaluuya, Keke Palmer, Brandon Perea, Steven Yeun, Terry Notary.",
+        "clasificacion": "Edad 18+",
+        "duracion": "2 hora 10 minutos"
+    },
+    {
+        "img": "./img/pelicula3.jpg",
+        "titulo": "THOR: AMOR Y TRUENO",
+        "sinopsis": "La película encuentra a Thor en un viaje diferente a todo lo que ha enfrentado: Una búsqueda de la paz interior. Pero su retiro es interrumpido por un asesino galáctico conocido como Gorr el carnicero de dioses. Para combatir la amenaza, Thor solicita la ayuda de la reina Valkiria, Korg y su ex novia Jane Foster, quien, para sorpresa de Thor, empuña inexplicablemente su martillo mágico, Mjolnir. Juntos, se embarcan en una angustiosa aventura cósmica para descubrir el misterio de la venganza del Dios Carnicero y detenerlo antes de que sea demasiado tarde.",
+        "reparto": "Chris Hemsworth, Christian Bale , Natalie Portman, Tessa Thompson",
+        "clasificacion": "Edad 13+",
+        "duracion": "1 hora 59 minutos"
+    },
+    {
+        "img": "./img/pelicula4.jpg",
+        "titulo": "DOCTOR STRANGE EN EL MULTIVERSO DE LA LOCURA",
+        "sinopsis": "La puerta del multiverso, llena de misterio y locura, se abre. Ahora que Iron Man y el Capitán América se han ido después de una feroz batalla de Vengadores: Endgame, se espera que el ex cirujano genio y el mago más fuerte de todos, el Doctor Strange juega un papel activo como una figura central en los Vengadores. Sin embargo, al usar su magia para manipular el tiempo y el espacio a voluntad con un hechizo prohibido que se considera el más peligroso, ha abierto la puerta a una misteriosa locura llamada el multiverso.",
+        "reparto": "Benedict Cumberbatch, Elizabeth Olsen, Xochitl Gómez, Rachel McAdams",
+        "clasificacion": "Edad 13+",
+        "duracion": "2 hora 6 minutos"
+    },
+    {
+        "img": "./img/pelicula5.jpg",
+        "titulo": "TOP GUN: MAVERICK",
+        "sinopsis": "Después de más de treinta años de servicio como uno de los mejores aviadores de la Armada, Pete Mavericks Mitchel se encuentra donde siempre quiso estar: superando los límites como un valiente piloto de pruebas y esquivando el ascenso de rango, que no le dejaría volar emplazándolo en tierra. Cuando es destinado a la academia de Top Gun con el objetivo de entrenar a los pilotos de élite para realizar una peligrosa misión en territorio enemigo.",
+        "reparto": "Tom Cruise, Miles Teller, Jennifer Connelly, Jon Hamm, Ed Harris, Val Kilmer.",
+        "clasificacion": "Edad 13+",
+        "duracion": "2 hora 11 minutos"
+    }
+]
